@@ -1,136 +1,119 @@
-# wabot-aq
+## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Hola soy sotravil
+<p align="center">
+<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/999691b4-e557-4058-87d8-6b6a398c8837-profile_image-300x300.png" width="128" height="128"/>
+</p>
+<p align="center">
+<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Sotravil Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+</p>
+<p align="center">
+<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/sbot bot-yellow?colorA=%#ff00d4&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Sotravil"><img title="Author" src="https://img.shields.io/badge/Author-Sotravil-red.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Sotravil/followers"><img title="Seguidores" src="https://img.shields.io/github/followers/Sotravil?color=blue&style=flat-square"></a>
+<a href="https://github.com/Sotravil/sbot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Sotravil/sbot?color=red&style=flat-square"></a>
+<a href="https://github.com/Sotravil/sbot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Sotravil/sbotf?color=red&style=flat-square"></a>
+<a href="https://github.com/Sotravil/sbot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Sotravil/sbotf?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://www.codefactor.io/repository/github/Sotravil/sbot"><img src="https://www.codefactor.io/repository/github/mhankbarbar/termux-wabot/badge" alt="CodeFactor" /></a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
+</p>
 
-Simple WhatsApp Bot
+<img src="https://github.com/Sotravil/animaciones/blob/main/46400cbacaf8eb1b36a89cdcd7da6740_w200.gif" alt="Hacker" width="600" />
+<div align="center">
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
 
-## FOR TERMUX/UBUNTU/SSH USER
 
+# INSTRUCIONES 
+
+
+<details>
+
+## Instala Termux para proseguir
+>playstore (android) : https://play.google.com/store/apps/details?id=com.termux&hl=en
+>appstore (iphone) : https://apps.apple.com/gr/app/termius-ssh-client/id549039908
+
+
+# <p align="center">
+<a href="#"><img title="Sotravil" src="https://img.shields.io/badge/Sotravil -green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+
+Bot Basico de WhatsApp
+
+### PARA USUARIOS TERMUX
 ```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
+> termux-setup-storage 
+> pkg update && pkg upgrade
+> pkg install git -y
+> pkg install nodejs -y
+> pkg install ffmpeg -y
+> pkg install imagemagick -y
+> git clone https://github.com/Sotravil/sbot
+> cd sbot
+> npm install
+> npm update
 ```
-
----------
-
-## FOR WINDOWS/VPS/RDP USER
-
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
-
+###### LANZAR BOT
 ```bash
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
+> node index.js
 ```
 
 ---------
 
-## Run
-
+### PARA USUARIOS WINDOWS/VPS/RDP 
+* Descarga e instala Git [`Click Here`](https://git-scm.com/downloads) <br>
+* Descarga e instala NodeJS [`Click Here`](https://nodejs.org/en/download) <br>
+* Descarga e instala FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 
+* Descarga e instala ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6) 
 ```bash
-node .
+> git clone https://github.com/Sotravil/sbot
+> cd sbot
+> npm install
+> npm udpate 
+```
+###### LANZAR BOT
+```bash
+> node index.js
 ```
 
----------
-
-## Arguments `node . [--options] [<session name>]`
-
-### `--self`
-
-Activate self mode (Ignores other)
-
-### `--prefix <prefixes>`
-
-* `prefixes` are seperated by each character
-Set prefix
-
-### `--server`
-
-Used for [heroku](https://heroku.com/) or scan through website
-
-### `--db <json-server-url>`
-
-Use external db instead of local db, 
-Example Server `https://json-server.nurutomo.repl.co/`
-Code: `https://repl.it/@Nurutomo/json-server`
-
-`node . --db 'https://json-server.nurutomo.repl.co/'`
-
-The server should have like this specification
-
-#### GET
-
-```http
-GET /
-Accept: application/json
-```
-
-#### POST
-
-```http
-POST /
-Content-Type: application/json
-
-{
- data: {}
-}
-```
-
-### `--big-qr`
-
-If small qr unicode doesn't support
-
-### `--restrict`
-
-Enables restricted plugins (which can lead your number to be **banned** if used too often)
-
-* Group Administration `add, kick`
-
-### `--img`
-
-Enable image inspector through terminal
-
-### `--autoread`
-
-If enabled, all incoming messages will be marked as read
-
-### `--nyimak`
-
-No bot, just print received messages and add users to database
-
-### `--test`
-
-**Development** Testing Mode
-
-### `--trace`
-
-```js
-conn.logger.level = 'trace'
-```
-
-### `--debug`
-
-```js
-conn.logger.level = 'debug'
-```
-
----------
-
-<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Ftwrr](https://github.com/Ftwrr.png?size=100)](https://github.com/Ftwrr) 
-----|----|----|----
-[XTEAM](https://api.xteam.xyz/) | [Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Ftwrr](https://github.com/Ftwrr)
-Powered by XTEAM | Author / Creator | Most Active Contributor | 2nd Most Active Contributor
+# MAS DETALLES
 
 
-NOTE: This project will not maintained after `27 June 2021`, that means no update. Feel free to anyone to continue this project :)
+</details>
+
+
+<details>
+
+## Recodificador: [Sotravil](https://wa.me/19728806294)
+Script: @Narutomo 
+
+<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Mario_Gameplay.gif"/>
+
+</p>
+
+</p>
+
+[GITHUB](https://github.com/Sotravil)
+
+## Mis grupos
+* <a href="https://chat.whatsapp.com/CFrlehcnibhDLmd3nLXr2B"><img alt="WhatsApp" src="https://img.shields.io/badge/Grupo%20De WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+
+## [Donaciones](https://paypal.me/Sotravil) [<img src="https://github.com/Sotravil/animaciones/blob/main/coiny-paypal.gif" width="120px">](https://paypal.me/Sotravil)
+
+* <a href="https://paypal.me/Sotravil"><img alt="Paypal" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" /></a>
+
+
+
+## Mis Redes Sociales
+
+
+[<img src="https://github.com/Sotravil/animaciones/blob/main/whatsapp.gif" width="50px">](https://wa.me/19728806294) [<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg" width="50px">](https://instagram.com/sotravil.last?igshid=l7miu0x3iefy) [<img src="https://github.com/Sotravil/animaciones/blob/main/371907120_YOUTUBE_ICON_TRANSPARENT_400.gif" width="50px">](https://youtube.com/channel/UCkXj_lgLhVqBfMleNQ06PqQ)
+
+
+</details>
+
+
+
