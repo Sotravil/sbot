@@ -1,7 +1,7 @@
 {
-  "name": "wabot-aq",
+  "name": "Sotravil",
   "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "description": "Sotravil WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -19,13 +19,13 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/Nurutomo/wabot-aq",
+  "homepage": "https://github.com/Sotravil/sbot",
   "author": {
-    "name": "Nurutomo"
+    "name": "Sotravil"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
+    "url": "git+https://github.com/Sotravil/sbot.git"
   },
   "bugs": {
     "url": "https://github.com/Nurutomo/wabot-aq/issues"
