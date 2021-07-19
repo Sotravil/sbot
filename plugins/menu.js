@@ -33,7 +33,7 @@ const defaultMenu = {
 │
 │ Coins *%limit Limit*
 │ Rol *%role*
-│ Nivel *%level (%exp / %maxexp)* [%xp4levelup te faltan para subir de nivel]
+│ Nivel *%level (%exp / %maxexp)* [%xp4levelup para subir de nivel]
 │ %totalexp XP in Total
 │ 
 │ Fecha: %date*
