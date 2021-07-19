@@ -33,13 +33,13 @@ const defaultMenu = {
 │
 │ Coins *%limit Limit*
 │ Rol *%role*
-│ Nivel *%level (%exp / %maxexp)* [%xp4levelup para subir de nivel]
+│ Nivel *%level (%exp / %maxexp)* 
+│ [%xp4levelup para subir de nivel]
 │ %totalexp XP in Total
 │ 
 │ Fecha: %date*
 │ 
 │ Hora: *%time*
-│
 │
 │ Mi canal de Youtube: www.youtube.com/channel/UCkXj_lgLhVqBfMleNQ06PqQ
 │ Uptime: *%uptime (%muptime)*
