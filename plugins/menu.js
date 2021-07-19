@@ -33,13 +33,15 @@ const defaultMenu = {
 │
 │ Coins *%limit Limit*
 │ Rol *%role*
-│ Nivel *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Nivel *%level (%exp / %maxexp)* [%xp4levelup te faltan para subir de nivel]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ Fecha: %date*
+│ 
+│ Hora: *%time*
 │
+│
+│ Mi canal de Youtube: https://www.youtube.com/channel/UCkXj_lgLhVqBfMleNQ06PqQ
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
