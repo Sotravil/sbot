@@ -41,7 +41,7 @@ const defaultMenu = {
 │ Hora: *%time*
 │
 │
-│ Mi canal de Youtube: https://www.youtube.com/channel/UCkXj_lgLhVqBfMleNQ06PqQ
+│ Mi canal de Youtube: www.youtube.com/channel/UCkXj_lgLhVqBfMleNQ06PqQ
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
