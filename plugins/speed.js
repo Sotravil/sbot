@@ -42,7 +42,7 @@ let handler = async (m, { conn }) => {
   let neww = performance.now()
   let speed = neww - old
   let txt = `
-Merespon dalam ${speed} millidetik
+Responde en ${speed} milisegundos
 
 💬 Status :
 - *${groups.length}* Group Chats
